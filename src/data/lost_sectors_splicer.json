@@ -1,0 +1,191 @@
+{
+    "concealed_void": {
+        "name": "Concealed Void",
+        "location": "Europa",
+        "enemyType": "Fallen",
+        "champions": ["Barrier", "Overload"],
+        "burn": "Solar",
+        "map": "",
+        "video": "",
+        "legend": {
+            "hash": "912873277"
+        }, 
+        "master": {
+            "hash": "912873274",
+            "masterModifer": "Chaff"
+        }
+    },
+    "bunker_e15": {
+        "name": "Bunker E15",
+        "location": "Europa",
+        "enemyType": "Vex",
+        "champions": ["Barrier", "Overload"],
+        "burn": "Void", 
+        "legend": {
+            "hash": "1648125541"
+        },
+        "master": {
+            "hash": "1648125538",
+            "masterModifer": "Attrition"
+        }
+    },
+    "perdition": {
+        "name": "Perdition",
+        "location": "Europa",
+        "enemyType": "Vex",
+        "champions": ["Barrier", "Overload"],
+        "burn": "Arc",
+        "legend": {
+            "hash": "1070981430"
+        }, 
+        "master": {
+            "hash": "1070981425",
+            "masterModifer": "Famine"
+        }
+    },
+    "the_quarry": {
+        "name": "The Quarry",
+        "location": "EDZ",
+        "enemyType": "Cabal",
+        "champions": ["Barrier", "Unstoppable"],
+        "burn": "Void",
+        "shields": "Solar",
+        "legend": {
+            "hash": "3253890607"
+        },
+        "master": {
+            "hash": "3253890600",
+            "masterModifer": "Chaff"
+        }
+    },
+    "scavengers_den": {
+        "name": "Scavenger's Den",
+        "location": "EDZ",
+        "enemyType": "Fallen",
+        "champions": ["Barrier", "Overload"],
+        "burn": "Solar",
+        "shields": "Arc",
+        "legend": {
+            "hash": "1905792149"
+        },
+        "master": {
+            "hash": "3253890600",
+            "masterModifer": "Chaff"
+        }
+    },
+    "excavation_site": {
+        "name": "Excavation Site XII",
+        "location": "EDZ",
+        "enemyType": "Cabal",
+        "champions": ["Barrier", "Unstoppable"],
+        "burn": "Solar",
+        "shields": "Arc",
+        "legend": {
+            "hash": "548616650"
+        },
+        "master": {
+            "hash": "548616653",
+            "masterModifer": "Attrition"
+        }
+    },
+    "exodus_garden": {
+        "name": "Exodus Garden 2A",
+        "location": "Cosmodrome",
+        "enemyType": "Fallen",
+        "champions": ["Barrier", "Overload"],
+        "burn": "Void",
+        "legend": {
+            "hash": "2936791996"
+        },
+        "master": {
+            "hash": "2936791995",
+            "masterModifer": "Attrition"
+        }
+    },
+    "veles_labyrinth": {
+        "name": "Veles Labyrinth",
+        "location": "Cosmodrome",
+        "enemyType": "Hive",
+        "champions": ["Barrier", "Unstoppable"],
+        "burn": "Arc",
+        "legend": {
+            "hash": "3094493720"
+        },
+        "master": {
+            "hash": "3094493727",
+            "masterModifer": "Chaff"
+        }
+    },
+    "empty_tank": {
+        "name": "Empty Tank",
+        "location": "Tangled Shore",
+        "enemyType": "Fallen",
+        "champions": ["Barrier", "Overload"],
+        "burn": "Solar",
+        "shields": "Arc",
+        "legend": {
+            "hash": "2019961998"
+        },
+        "master": {
+            "hash": "2019961993",
+            "masterModifer": "Chaff"
+        }
+    },
+    "k1_logistics": {
+        "name": "K1 Logistics",
+        "location": "Moon",
+        "enemyType": "Fallen",
+        "champions": ["Barrier", "Overload"],
+        "burn": "Void",
+        "legend": {
+            "hash": "567131512"
+        },
+        "master": {
+            "hash": "567131519",
+            "masterModifer": "Chaff"
+        }
+    },
+    "k1_communion": {
+        "name": "K1 Communion",
+        "location": "Moon",
+        "enemyType": "Fallen",
+        "champions": ["Barrier", "Overload"],
+        "burn": "Solar",
+        "legend": {
+            "hash": "2829206727"
+        },
+        "master": {
+            "hash": "2829206720",
+            "masterModifer": "Famine"
+        }
+    },
+    "k1_crew_quarters": {
+        "name": "K1 Crew Quarters",
+        "location": "Moon",
+        "enemyType": "Fallen",
+        "champions": ["Barrier", "Overload"],
+        "burn": "Arc",
+        "legend": {
+            "hash": "184186581"
+        },
+        "master": {
+            "hash": "184186578",
+            "masterModifer": "Attrition"
+        }
+    },
+    "k1_revelation": {
+        "name": "K1 Revelation",
+        "location": "Moon",
+        "enemyType": "Hive",
+        "champions": ["Barrier", "Unstoppable"],
+        "burn": "Void",
+        "legend": {
+            "hash": "3911969233"
+        },
+        "master": {
+            "hash": "3911969238",
+            "masterModifer": "Chaff"
+        }
+    }
+    
+}
