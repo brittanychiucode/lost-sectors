@@ -101,7 +101,7 @@ class LostSector extends Component {
           <p><b>Location</b>: {LostSectorData[this.state.curLegendLostSector]["location"]}</p>
           <p><b>Champions</b>: {LostSectorData[this.state.curLegendLostSector]["champions"].join(", ")}</p>
           <CardActions>
-            <Button variant="contained" color="primary" lostSector={this.state.curLegendLostSector} onClick={this.onMapClick}>Map</Button>
+            {/* <Button variant="contained" color="primary" lostSector={this.state.curLegendLostSector} onClick={this.onMapClick} >Map</Button> */}
             {/* <Button variant="contained" color="primary">Video</Button> */}
           </CardActions>
         </Card>
@@ -113,7 +113,7 @@ class LostSector extends Component {
           <p><b>Location</b>: {LostSectorData[this.state.curLegendLostSector]["location"]}</p>
           <p><b>Champions</b>: {LostSectorData[this.state.curMasterLostSector]["champions"].join(", ")}</p>
           <CardActions>
-            <Button variant="contained" color="primary" lostSector={this.state.curMasterLostSector} onClick={this.onMapClick}>Map</Button>
+            {/* <Button variant="contained" color="primary" lostSector={this.state.curMasterLostSector} onClick={this.onMapClick}>Map</Button> */}
             {/* <Button variant="contained" color="primary">Video</Button> */}
           </CardActions>
         </Card>        
