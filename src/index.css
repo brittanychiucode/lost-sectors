@@ -5,9 +5,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./assets/LostSectors.jpg');
+  background-size: cover;
+  background-position: center;
+  
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@font-face {
+  font-family: 'Destiny';
+  font-style: normal;
+  font-weight: normal;
+  src:
+    local('Destiny_Fonts'),
+    url(./assets/Destiny_Fonts.otf) format('otf');
+}
+
+.destiny-font {
+  font-family: "Destiny";
 }

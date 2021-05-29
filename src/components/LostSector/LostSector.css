@@ -1,0 +1,14 @@
+.lost{
+  display: block;
+  margin-left: 30%;
+  margin-top: 10%;
+  width: 40%;
+}
+
+.legend {
+  padding: 20px;
+}
+
+.master {
+  padding: 20px;
+}
