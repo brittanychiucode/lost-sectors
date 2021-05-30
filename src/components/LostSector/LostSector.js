@@ -24,7 +24,6 @@ class LostSector extends Component {
       curLegendLostSectorReward: this.getLegendLostSectorAward(),
       curMasterLostSector: this.getMasterLostSector(),
       curMasterLostSectorReward: this.getMasterLostSectorAward(),
-      showMap: false
     }
 
     this.getDeltaDays = this.getDeltaDays.bind(this);
@@ -32,7 +31,6 @@ class LostSector extends Component {
     this.getLegendLostSectorAward = this.getLegendLostSectorAward.bind(this);
     this.getMasterLostSector = this.getMasterLostSector.bind(this)
     this.getMasterLostSectorAward = this.getMasterLostSectorAward.bind(this);
-    this.onMapClick = this.onMapClick.bind(this);
   }
 
   getDeltaDays(){
@@ -86,11 +84,7 @@ class LostSector extends Component {
     return LostSectorRewardOrder[masterRewardIndex];
   }
 
-  onMapClick(){
-    this.setState({
-      showMap: true
-    })
-  }
+ 
 
   render(){
    return (
@@ -101,11 +95,9 @@ class LostSector extends Component {
           <p><b>Location</b>: {LostSectorData[this.state.curLegendLostSector]["location"]}</p>
           <p><b>Champions</b>: {LostSectorData[this.state.curLegendLostSector]["champions"].join(", ")}</p>
           <CardActions>
-            {/* <Button variant="contained" color="primary" lostSector={this.state.curLegendLostSector} onClick={this.onMapClick} >Map</Button> */}
-            {/* <Button variant="contained" color="primary">Video</Button> */}
+            <LostSectorMap mapImageLocation={LostSectorData[this.state.curLegendLostSector]["map"]} lostsector={LostSectorData[this.state.curLegendLostSector]["name"]}></LostSectorMap>
           </CardActions>
         </Card>
-        <LostSectorMap show={this.state.showMap}></LostSectorMap>
         <br></br>
         <Card raised="true" className="master shadow-lg p-3 mb-5 bg-white rounded">
           <p><b>Master Lost Sector</b>: {LostSectorData[this.state.curMasterLostSector]["name"]}</p>
@@ -113,8 +105,7 @@ class LostSector extends Component {
           <p><b>Location</b>: {LostSectorData[this.state.curLegendLostSector]["location"]}</p>
           <p><b>Champions</b>: {LostSectorData[this.state.curMasterLostSector]["champions"].join(", ")}</p>
           <CardActions>
-            {/* <Button variant="contained" color="primary" lostSector={this.state.curMasterLostSector} onClick={this.onMapClick}>Map</Button> */}
-            {/* <Button variant="contained" color="primary">Video</Button> */}
+            <LostSectorMap mapImageLocation={LostSectorData[this.state.curLegendLostSector]["map"]} lostsector={LostSectorData[this.state.curMasterLostSector]["name"]}></LostSectorMap>
           </CardActions>
         </Card>        
       </div>

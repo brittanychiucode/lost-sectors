@@ -5,7 +5,7 @@
         "enemyType": "Fallen",
         "champions": ["Barrier", "Overload"],
         "burn": "Solar",
-        "map": "",
+        "map": "../assets/maps/concealed_void_map.png",
         "video": "",
         "legend": {
             "hash": "912873277"
@@ -21,6 +21,7 @@
         "enemyType": "Vex",
         "champions": ["Barrier", "Overload"],
         "burn": "Void", 
+        "map": "../assets/maps/concealed_void_map.png",
         "legend": {
             "hash": "1648125541"
         },
@@ -35,6 +36,7 @@
         "enemyType": "Vex",
         "champions": ["Barrier", "Overload"],
         "burn": "Arc",
+        "map": "../assets/maps/concealed_void_map.png",
         "legend": {
             "hash": "1070981430"
         }, 
@@ -50,6 +52,7 @@
         "champions": ["Barrier", "Unstoppable"],
         "burn": "Void",
         "shields": "Solar",
+        "map": "../assets/maps/concealed_void_map.png",
         "legend": {
             "hash": "3253890607"
         },
@@ -65,6 +68,7 @@
         "champions": ["Barrier", "Overload"],
         "burn": "Solar",
         "shields": "Arc",
+        "map": "../assets/maps/concealed_void_map.png",
         "legend": {
             "hash": "1905792149"
         },
@@ -80,6 +84,7 @@
         "champions": ["Barrier", "Unstoppable"],
         "burn": "Solar",
         "shields": "Arc",
+        "map": "../assets/maps/concealed_void_map.png",
         "legend": {
             "hash": "548616650"
         },
@@ -94,6 +99,7 @@
         "enemyType": "Fallen",
         "champions": ["Barrier", "Overload"],
         "burn": "Void",
+        "map": "../assets/maps/concealed_void_map.png",
         "legend": {
             "hash": "2936791996"
         },
@@ -108,6 +114,7 @@
         "enemyType": "Hive",
         "champions": ["Barrier", "Unstoppable"],
         "burn": "Arc",
+        "map": "../assets/maps/concealed_void_map.png",
         "legend": {
             "hash": "3094493720"
         },
@@ -123,6 +130,7 @@
         "champions": ["Barrier", "Overload"],
         "burn": "Solar",
         "shields": "Arc",
+        "map": "D:/CodeProjects/drafts/lost-sector/public/images/maps/concealed_void_map.png",
         "legend": {
             "hash": "2019961998"
         },
@@ -137,6 +145,7 @@
         "enemyType": "Fallen",
         "champions": ["Barrier", "Overload"],
         "burn": "Void",
+        "map": "../assets/maps/concealed_void_map.png",
         "legend": {
             "hash": "567131512"
         },
@@ -151,6 +160,7 @@
         "enemyType": "Fallen",
         "champions": ["Barrier", "Overload"],
         "burn": "Solar",
+        "map": "../assets/maps/concealed_void_map.png",
         "legend": {
             "hash": "2829206727"
         },
@@ -165,6 +175,7 @@
         "enemyType": "Fallen",
         "champions": ["Barrier", "Overload"],
         "burn": "Arc",
+        "map": "../assets/maps/concealed_void_map.png",
         "legend": {
             "hash": "184186581"
         },
@@ -179,6 +190,7 @@
         "enemyType": "Hive",
         "champions": ["Barrier", "Unstoppable"],
         "burn": "Void",
+        "map": "../assets/maps/concealed_void_map.png",
         "legend": {
             "hash": "3911969233"
         },
