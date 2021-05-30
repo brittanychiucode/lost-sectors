@@ -37,7 +37,7 @@ class LostSector extends Component {
 
   getDeltaDays(){
     const msDays = 1000 * 60 * 60 * 24; 
-    const seedDate = new Date('09 May 2021 5:00 UTC');
+    const seedDate = new Date('09 May 2021 5:00 PM UTC');
     const seedDateMs = seedDate.getTime();
   
     var today = new Date();
